@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df71b77c-40a5-4e6f-8f20-b5aba3aec281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/currency/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/currency/Money.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/MoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/MoneyTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/currency/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/currency/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoneyTest.java" afterDir="false" />
@@ -33,27 +38,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1556" />
-          <entry key="md" value="1011" />
+          <entry key="java" value="1887" />
+          <entry key="md" value="1012" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1556" />
-          <entry key="Markdown" value="1011" />
+          <entry key="JAVA" value="1887" />
+          <entry key="Markdown" value="1012" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -76,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/currency/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="336">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#260#261#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
@@ -93,11 +98,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/currency/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/currency/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -107,6 +134,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -421,7 +449,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/currency/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/currency/Franc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/currency/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/currency/Money.java" />
+        <option value="$PROJECT_DIR$/src/main/java/currency/Bank.java" />
         <option value="$PROJECT_DIR$/src/test/java/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/README.md" />
       </list>
@@ -502,7 +532,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539869748207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539872673651" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -578,7 +608,7 @@
       <updated>1539699918844</updated>
       <workItem from="1539699927466" duration="6756000" />
       <workItem from="1539794995141" duration="6016000" />
-      <workItem from="1539807681572" duration="3920000" />
+      <workItem from="1539807681572" duration="5445000" />
     </task>
     <task id="LOCAL-00001" summary="Upload project">
       <created>1539700159796</created>
@@ -598,12 +628,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2018.10.16 at 15h 12m 00s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.10.17 at 14h 32m 31s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest - 2018.10.17 at 14h 55m 10s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
@@ -628,9 +652,15 @@
     <history-entry file="MoneyTest - 2018.10.17 at 18h 15m 53s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MoneyTest - 2018.10.18 at 10h 57m 21s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.10.18 at 11h 24m 29s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16692000" />
+    <option name="totallyTimeSpent" value="18217000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -644,6 +674,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23891273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -654,13 +685,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -713,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/currency/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="336">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#260#261#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
@@ -728,10 +759,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/currency/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/currency/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
